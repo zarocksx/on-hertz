@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>   <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>   <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>  <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>On-hertz Slider demo</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./style.css">
+	<style id="rgbStyle"></style>
+	<script src="./js/polyfill.js"></script>
+</head>
+
+
+<body>
+	<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+	<div class="left" style='display: none'>
+		<div class="slider-container">
+			<span class="rulers"></span>
+			<span class="bar"><span class="fill" id="fill"></span></span>
+			<input type="range" id="slider" class="slider" min="0" max="1" step="any">
+		</div>
+	</div>
+	<div class="wrap" style="--val: 0; --min: -80; --max: 10; --n: 4; --step: 1; --display: 0;">
+		<input id="s" type="range" min="0" max="1" list="l" step="any" />
+		<output for="s"></output>
+		<!-- Pas très beau, mais efficace-->
+		<datalist id="l">
+			<option label="OFF"></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label="-70"></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label="-60"></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label="-50"></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label="-40"></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label="-30"></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label="-20"></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label="-10"></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label="0"></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label=""></option>
+			<option label="10"></option>
+		</datalist>
+	</div>
+
+
+	<script src="./js/main.js" async></script>
+	<script src="./js/midiSlider.js" async></script>
+</body>
+
+</html>
