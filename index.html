@@ -17,11 +17,11 @@
 </head>
 
 
-<body>
+<div>
 	<!--[if lt IE 7]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
-
+	<!-- will not be used keep for explaining-->
 	<div class="left" style='display: none'>
 		<div class="slider-container">
 			<span class="rulers"></span>
@@ -29,6 +29,7 @@
 			<input type="range" id="slider" class="slider" min="0" max="1" step="any">
 		</div>
 	</div>
+
 	<div class="wrap" style="--val: 0; --min: -80; --max: 10; --n: 4; --step: 1; --display: 0;">
 		<input id="s" type="range" min="0" max="1" list="l" step="any" />
 		<output for="s"></output>
@@ -139,8 +140,9 @@
 	</div>
 
 
+
 	<script src="./js/main.js" async></script>
 	<script src="./js/midiSlider.js" async></script>
-</body>
+	</body>
 
 </html>

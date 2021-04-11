@@ -376,15 +376,15 @@ body {
 .wrap input[type="range"][list] ~ datalist::after {
   content: "";
   position: absolute;
-  left: 5%;
-  right: 5%;
-  top: 50%;
-  bottom: 20%;
-  background: linear-gradient(to left, #686868 1px, transparent 1px);
-  background-size: 2.5% 100%;
+  left: 3.5%;
+  right: 6%;
+  top: 55%;
+  bottom: 25%;
+  background: linear-gradient(to left, #000000 1px, transparent 0px);
+  background-size: 2%;
 }
 .wrap input[type="range"][list] ~ datalist option {
-  font-size: 0.875em;
+  font-size: 0.85em;
   transform: rotate(90deg);
   margin-top: 1.75em;
   width: 1%;

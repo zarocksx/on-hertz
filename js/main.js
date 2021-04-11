@@ -60,7 +60,7 @@ const slider = document.getElementById("slider"),
   rgb1 = [255, 229, 59],
   rgb2 = [255, 37, 37];
 
-const setBar = () => {
+const setupSlider = () => {
   let min = slider.getAttribute("min"),
     max = slider.getAttribute("max"),
     value = slider.value,
@@ -71,11 +71,11 @@ const setBar = () => {
 
 if (slider) {
   slider.addEventListener("input", (_ev) => {
-    setBar();
+    setupSlider();
   });
 }
 
-setBar();
+setupSlider();
 
 // second slider
 
